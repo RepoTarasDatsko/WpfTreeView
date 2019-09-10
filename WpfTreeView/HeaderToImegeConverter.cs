@@ -18,7 +18,7 @@ namespace WpfTreeView
             {
                 return null;
             }
-            var name = MainWindow.GetileFolderName(path);
+            var name = DirectoryStructure.GetFileFolderName(path);
             var image = "Images/file.png";
             if (string.IsNullOrEmpty(name))
             {
